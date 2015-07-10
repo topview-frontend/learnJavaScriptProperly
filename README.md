@@ -17,7 +17,7 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Learn JavaScript Proproly
-按照[javascriptissexy](http://javascriptissexy.com/)的[How To Learn JavaScript Proproly]()一文来正确地学习JavaScript.  
+按照[javascriptissexy](http://javascriptissexy.com/)的[How To Learn JavaScript Proproly](http://javascriptissexy.com/how-to-learn-javascript-properly/)一文来正确地学习JavaScript.  
 详细内容请查看[原文](http://javascriptissexy.com/how-to-learn-javascript-properly/)!!!:ghost:
 
 ## First of All
