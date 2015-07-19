@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <title>share</title>
+        <meta charset="utf-8" />
+        <link href="http://bartaz.github.com/impress.js/css/impress-demo.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="impress-not-supported">
+            <div class="fallback-message">
+                <p>你的浏览器<b>不支持</b> impress.js, 所以当前展示的是简化版。</p>
+                <p>为了获得更好的体验，请使用最新的 <b>Chrome</b>, <b>Safari</b> 或者 <b>Firefox</b> 浏览器。</p>
+            </div>
+        </div>
+        <div id="impress">
+            <div class="step"  data-y="0">
+                   impress.js是什么？
+
+            </div>
+            <div class="step"　 data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+              <p>impress.js 是一个Javascript程序包,是国外一位开发者受 Prezi 启发，采用 CSS3 与 JavaScript 语言完成的一个可供开发者使用的表现层框架(演示工具),可以自由设置它的样式如位子大小。旋转缩放</p>
+              
+            </div>
+            <div class="step" data-x="500" data-y="-400">
+                <p>怎样使用impress.js??<p>
+            </div>
+            <div class="step" data-x="500" data-y="-800" data-scale="0.5">
+            1.网页的基本结构<br/>
+            2.各个板块都被一个id="impress"的wrapper包含着<br/>
+            3.与jquery相似，还要引入impress.js<br/>
+            4.class="impress-not-supported"是当浏览器不支持时显示给用户的提示信息<br/>
+            5.别忘了初始化代码，impress().init()<br/>
+            
+            </div>
+            <div class="step" data-x="0" data-y="-800" data-rotate="90" style="font-size:24px">
+
+                  data-x：幻灯片的x坐标<br/>
+                  data-y ： 幻灯片的y坐标<br/>
+                  data-scale ： 通过指定一个值来进行缩放<br/>
+                  data-rotate ： 通过一个数字度数来确定旋转你的幻灯片<br/>
+                  data-rotate-x ： 为3D用，这个数字度数是它应该相对x轴旋转多少度。<br/>
+                  data-rotate-y ：为3D用，这个数字度数是它应该相对y轴旋转多少度。<br/>
+                  data-rotate-z ： 为3D用，这个数字度数是它应该相对z轴旋转多少度。<br/>
+
+                
+            </div>
+            <div class="step" data-x="-1200" data-y="0" data-rotate-x="30" data-rotate-y="-30" data-rotate-z="90" data-scale="4">
+            <p style="font-size:24px"> impreess源码已经发布在GitHub上</p>
+            <p style="font-size:24px">地址：https://github.com/bartaz/impress.js</p>
+             <p style="font-size:24px"> 官方demo地址：http://bartaz.github.com/impress.js</p>
+            </div>
+      
+            <div id="overview" class="step" data-x="-200" data-y="-500" data-scale="3"></div>
+        </div>
+        <script src="js/impress.js"></script>
+        <script>impress().init();</script>
+    </body>
+</html>
