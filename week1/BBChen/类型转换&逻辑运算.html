@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>类型转换&逻辑运算</title>
+</head>
+<body>
+<div class="md-section-divider"></div><div class="md-section-divider"></div><h1 data-anchor-id="lzpa" id="类型转换逻辑运算">类型转换&amp;逻辑运算</h1><p data-anchor-id="r4e1"><code>数据类型</code></p><div class="md-section-divider"></div><h3 data-anchor-id="vxgt" id="首先复习下javascript的数据类型">首先复习下javascript的数据类型</h3><ul data-anchor-id="cfax">
+<li>基本类型：字符串， 数字， 布尔</li>
+<li>特殊类型： Null， Undefined    ---<em>原始类型</em></li>
+<li>复合类型：对象，数组   ---<em>引用类型</em> <br>
+<a href="http://www.w3school.com.cn/js/pro_js_primitivetypes.asp" target="_blank">W3C</a></li>
+</ul><div class="md-section-divider"></div><h3 data-anchor-id="qgpm" id="数据转换">数据转换</h3><ol data-anchor-id="4avs">
+<li>隐式转换    ---<em>自动转换</em></li>
+<li>显式转换    ---<em>强制转换</em></li>
+</ol><div class="md-section-divider"></div><h3 data-anchor-id="axq7" id="显式转换">显式转换</h3><ul data-anchor-id="a0kc">
+<li>Number()</li>
+<li>String()</li>
+<li>Boolean()</li>
+</ul><p></p><div class="md-section-divider"></div><h2 data-anchor-id="f0fp" id="beginning"><strong>beginning</strong></h2><p data-anchor-id="wczl"><strong><em>原始值类型</em></strong></p><ol data-anchor-id="x1et">
+<li><p><strong>Number（mix）</strong> -- 可以将任意类型的参数mix转换为数值类型</p>
+
+<ul><li>特殊：Null--0， undefined--NaN</li>
+<li>基本：布尔值--0/1， 数值--本身， 字符串--（只含数字--十进制（忽略前导0）， 有效浮点格式--浮点数（忽略前导0），空字符--0， 不符合以上格式--NaN）</li>
+<li>附：parseInt()/parseFloat() </li></ul></li>
+</ol><p></p><ol data-anchor-id="ih4k">
+<li><p><strong>Boolean（）</strong></p>
+
+<ul><li>可以进行布尔运算转化为假的数据类型有如下：0， false， NaN， null， undefined</li></ul></li>
+<li><p><strong>String（）</strong></p>
+
+<ul><li>任意类型都转化为字符串</li></ul></li>
+</ol><p data-anchor-id="if11"> <br>
+ <strong><em>引用类型</em></strong></p><ol data-anchor-id="e2p4">
+<li>所有布尔值都是true；</li>
+<li><img src="http://ww1.sinaimg.cn/large/91a2a447gw1eu7ycqj29lj20j705jjt3.jpg" alt="此处输入图片的描述" title=""></li>
+<li><img src="http://ww3.sinaimg.cn/large/91a2a447gw1eu7year9w3j20j405w404.jpg" alt="此处输入图片的描述" title=""> <br>
+ <br>
+<a href="http://www.jianshu.com/p/1e7d0ab79b9e" target="_blank">javascript类型转化</a> </li>
+</ol><div class="md-section-divider"></div><h2 data-anchor-id="d74r" id="逻辑运算">逻辑运算</h2><p data-anchor-id="3nvk"><img src="http://ww4.sinaimg.cn/large/91a2a447gw1eu7xbyoufhj20hk0a6tab.jpg" alt="javascript逻辑运算" title=""></p><p data-anchor-id="t0rx">我<strong>总结</strong>起来就是</p><ul data-anchor-id="yl8y">
+<li>A &amp;&amp; B  —— A真，返回B；A假，返回A</li>
+<li>A || B   —— A真，返回A；A假，返回B <br>
+ <br>
+<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Operator_Precedence" target="_blank">运算符优先级</a> <br>
+ <br>
+练习</li>
+</ul><blockquote data-anchor-id="qtil" class="white-blockquote">
+  <p>typeof document.createElement === 'function'; <br>
+  <strong>true</strong> <br>
+  typeof document.createElement === 'object'; <br>
+  <strong>false</strong> <br>
+  typeof document.createElement === 'function' &amp;&amp; 'boject'; <br>
+  <strong>？</strong> <br>
+   typeof document.createElement === 'object' &amp;&amp; 'function';  <br>
+  <strong>？</strong> <br>
+  typeof document.createElement ===  ('function' || 'object' ); <br>
+  <strong>？</strong> <br>
+  typeof document.createElement ===  ('object' || 'function'); <br>
+  <strong>?</strong> <br>
+  typeof document.createElement ===  ('function' &amp;&amp;  'object'); <br>
+  <strong>？</strong> <br>
+  typeof document.createElement ===  ('object' &amp;&amp; 'function'); <br>
+  <strong>？</strong></p>
+</blockquote>
+</body>
+</html>
