@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		body {
+			width: 1200px;
+			text-align: center;/*文本与图片水平对齐居中*/
+			margin: 0 auto;/*距离父元素左右距离自动对齐*/
+		}
+		#test1 {
+			width: 1200px;
+			height: 300px;
+			display: table-cell;
+			vertical-align: middle;/*上下对齐居中*/
+			background: rgb(222,222,222);
+		}
+		#test2 {
+			width: 200px;
+			height: 100px;
+			background: rgb(255,255,255);
+			margin: 0 auto;/*如果要div里div水平居中 只需要设置这个*/
+		}
+	</style>
+</head>
+<body>
+	<div id="test">
+		<h2>关于居中的问题</h2>
+		<p>分享一个关于居中的超好用的办法</p>
+		<p>1.用text-align<br>
+			2.用margin：0 auto<br>
+			3.用position left top</p>
+		<p>但是以上都不能垂直居中</p>
+		<p>4.一个超级好用的属性<strong>vertical-align</strong> 例子如下：</p>
+		<div id="test1">
+<!-- 			<p>垂直居中</p> -->
+			<div id="test2">
+			</div>
+		</div>		
+	</div>
+
+</body>
+</html>
