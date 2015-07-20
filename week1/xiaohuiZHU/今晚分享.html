@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>周日分享</title>
+        	<link rel="stylesheet" href="周日分享会.css">
+			<script src="jquery-1.11.2.js"></script>
+			<script src="分享会.js"></script>
+	</head>
+
+	<body>
+    	<h1 align="center">分享内容</h1>	
+        <div>
+        	<ol>
+            	<li><a href="#" id="1">页面的宽和高<a></li>
+                <li><a href="#" id="2">滚动条</a></li>
+                <li><a href="#" id="3">z-index以及以上的内容</a></li>
+            </ol>
+        </div>
+        <div id="one">
+        	<table align="center">
+            	<tr>
+                	<td> document.body.clientWidth </td> <th> 网页可见区域宽度 </th>
+                <tr>
+                	<td> document.body.clientHeight </td> <th> 网页可见区域高度 </th>
+                <tr>
+                	<td> document.body.scrollWidth </td> <th> 网页正文全文宽 </th>
+                <tr>
+                	<td> document.body.scrollHeight </td> <th> 网页正文全文高 </th>
+                <tr>
+                	<td> document.body.scrollTop </td> <th> 网页被卷去的高 </th>
+                <tr>
+                	<td> document.body.scrollLeft </td> <th> 网页被卷去的左 </th>  
+                <tr>
+                	<td> window.screen.height </td> <th> 屏幕分辨率的高 </th> 
+                <tr>
+                	<td> window.screen.width </td> <th> 屏幕分辨率的宽 </th>     
+            </table>                                                 
+      </div>
+      <div id="two">
+        	<span>关于scroll相关的值已经讲了，现在我们看如何触发scroll事件 ： window.onscroll</span>
+      </div>
+      <div id="three">
+      		Z-index相信大家都知道的，就像是坐标系一样，看一下网站
+            <ul>
+            	<li><a href="http://www.aleeforoughi.com/" target="new">WEB1</a></li>
+                <li><a href="file:///E|/网页文件/My HomePage/HomePage/HomePage.html" target="new">WEB2</a></li>
+                <li><a href="file:///E|/网页文件/控制滚动条，评论的显示.html" target="new">WEB3</a></li>
+            </ul>    
+      </div>
+	</body>
+</html>

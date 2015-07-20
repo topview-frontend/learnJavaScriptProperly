@@ -1,0 +1,39 @@
+body {
+	background-color: #999;
+}
+div {
+	background-color: #000;
+	border-radius: 10px;
+	position: relative;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+h2 {
+	color: #333;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+a , li {
+	color: #CCC;
+	text-decoration: none;
+	font-size:24px;
+	font-weight:bold;;
+}
+
+ol {
+	margin-left: 35%;
+}
+
+#one , #two , #three {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color:#CCC;
+	display: none;
+}
+
+#three a {
+	text-decoration: none;
+	color:#06F;
+}
