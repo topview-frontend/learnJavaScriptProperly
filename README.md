@@ -70,6 +70,8 @@
   - 记录得分，并且在最后一页显示出来。
   - 动态地添加问题。也就是按'next'的时候，要把当前的问题删除掉，然后添加新的问题。
   - 可以考虑这样来储存所有问题:
+
+  
   ```javascript
   var allQuestions = [{
     querstion: 'What is JavaScript?',
@@ -81,7 +83,9 @@
     correctAnswer: 0
   }];
   ```
-  - 写2个版本。一个JavaScript, 一个jQuery.
+  
+  - 写2个版本。一个JavaScript, 一个jQuery. 
+  - 用**git**来管理你们的quiz项目！！
 
 ## Week 4~5 - Regular Expressions, Window Object, Events, jQuery
 内容有正则表达式，`window`对象，事件，以及jQuery
