@@ -1,0 +1,14 @@
+.appView{
+    font-family:Calibri, Helvetica, serif;
+    color:#444;
+    width:200px;
+    margin:100px auto 0;
+    padding:30px;
+    border:1px solid #ddd;
+    background:#f6f6f6;
+    border-radius:4px;
+}
+
+h2 {
+  text-align:center;
+}
