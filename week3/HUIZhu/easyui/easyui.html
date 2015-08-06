@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>easyui</title>
+<link rel="stylesheet" href="resource/jquery-easyui-1.3.5/themes/default/easyui.css" />
+<link rel="stylesheet" href="resource/jquery-easyui-1.3.5/themes/icon.css" />
+<link rel="stylesheet" href="css/Easyui.css" />
+<script src="resource/jquery-easyui-1.3.5/jquery.min.js"></script>
+<script src="resource/jquery-easyui-1.3.5/jquery.easyui.min.js"></script>
+<script src="resource/js/control.js"></script>
+</head>
+
+<body>
+<p>折叠式标签
+
+<div id="aa" border="true">
+	<div title="Title1" icon="icon-save" id="label1">
+	<h3>Accordion for jquery</h3>
+	<p>Accordion is a part of easyui framework for jQuery. It lets you define your accordion component on web page more easily.</p>
+	</div>
+	<div title="Title2" icon="icon-reload" selected="true" id="label2">content2</div>
+	<div title="Title3">content3</div>
+</div>
+
+<p>元素的拖拉
+<div id="dd" class="dd-demo"></div>
+<div id="dd1" class="dd-demo"></div>
+<br />
+
+<p>数字限定框
+<input type="text" required="required" id="num" /><a href="#" id="1">enable</a>　<a href="#" id="2">disable</a>
+
+//树
+
+<div style="width:150px">
+<ul id="tt" class="easyui-tree">
+	<li><span>高达SEED人物</span>
+  		<ul>
+  		<li><span>基拉</span>
+  		<li><span>拉克丝</span>
+  		<li><span>高达类型</span>
+    		<ul>
+    		<li><span>自由</span>
+      		<li><span>正义</span>
+      		<li><span>拂晓</span>
+      		</ul>
+ 		</ul>
+	<li><span>逢泽莉娜</span> 
+	<li><span>高智能方程式赛车</span>  
+</ul>
+</div>
+<br />
+
+tab标签
+<br />
+
+<div class="easyui-tabs" id="t_frame" style="width: 450px;">
+<div title="图片1" id="tab1">
+	<center><img src="resource/img/3795584_961200.jpg" height="200"/></center>
+</div>
+<div title="图片2" selected="true" id="tab2">
+	<center><img src="resource/img/13595309303447.jpg"  height="200"/></center>
+</div>
+<div title="图片3" closable="true" id="tab3">
+	<center><img src="resource/img/13595319834827.jpg" height="200" /></center>
+</div>
+</div>
+
+<br />
+面板
+
+<br>
+<div class="easyui-panel" title="我的面板" collapsible="true" closable="true" minimizable="true" id="mb" style="width:450px;">
+<img src="resource/img/58ee3d6d55fbb2fb2e60aa064d4a20a44623dc5f.jpg"
+</div>
+
+</body>
+
+</html>
