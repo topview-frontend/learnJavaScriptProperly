@@ -3,6 +3,7 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Learn JavaScript Proproly](#learn-javascript-proproly)
+  - [You'll Learn](#youll-learn)
   - [First of All](#first-of-all)
   - [Resource](#resource)
   - [Week 1 - Introduction, Data Types, Expressions and Operations](#week-1---introduction-data-types-expressions-and-operations)
@@ -17,10 +18,12 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 # Learn JavaScript Proproly
-**本文是翻译** !!**本文是翻译**!! 详细内容请查看[原文](http://javascriptissexy.com/how-to-learn-javascript-properly/)!!!:ghost:
+**本文是翻译** !!**本文是翻译**!! 详细内容请查看原文: http://javascriptissexy.com/how-to-learn-javascript-properly/ !!!:ghost:
 
 按照[javascriptissexy](http://javascriptissexy.com/)的[How To Learn JavaScript Proproly](http://javascriptissexy.com/how-to-learn-javascript-properly/)一文来正确地学习JavaScript.  
 
+## You'll Learn
+![You'll Learn](http://ww4.sinaimg.cn/large/7f85b91egw1euyoncmc3dj210j0f4tad.jpg)
 
 ## First of All
 - 遇到问题若解决不了，请提交issue!!!!!!!!!
